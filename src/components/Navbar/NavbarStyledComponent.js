@@ -1,6 +1,5 @@
 import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
-import _default from '../../themes/default';
 
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
@@ -28,7 +27,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-    width: 80%;    
+    width: 20%;    
     padding: 0 6px;
     display: flex;
     justify-content: start;
@@ -206,7 +205,7 @@ export  const MobileLink = styled.a`
 `;
 
 export const MobileNavLogo = styled(LinkR)`
-  width: 80%;
+  width: 20%;
   padding: 0 6px;
   display: flex;
   justify-content: start;

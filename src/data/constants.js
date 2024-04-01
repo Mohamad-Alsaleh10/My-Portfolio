@@ -1,5 +1,6 @@
 import Ecommerce from '../images/ecommerce.PNG'
 import ModernEcommerce from '../images/modern e-commerce.PNG'
+import Villa from '../images/Villa.PNG'
 import resume from '../files/Resume/Mohammed Al-Saleh.pdf'
 
 export const Bio = {
@@ -121,48 +122,38 @@ export const experiences = [
   {
     id: 0,
     img: "",
-    role: "Frontend Engineer Intern",
-    company: "MMN",
-    date: "October 2023 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    role: "Full Stack Developer",
+    company: "Focal X Agency",
+    date: "February 2024  - Present",
+    desc: "• Spearheaded the development of full-stack solutions for various projects, leveraging PHP, MySQL, Laravel, React.js, Next.js, and TypeScript to deliver high-quality, feature-rich applications , Implemented server-side rendered applications with Next.js, enhancing performance and scalability , Contributed to the Fullstack TypeScript Next.js Boilerplate, showcasing my ability to create modular, customizable, and highly performant web applications.",
     skills: [
       "ReactJS",
+      "NextJS",
       "Redux",
-      "NodeJs",
+      "Laravel",
       "Material UI",
       "HTML",
       "CSS",
       "JavaScript",
+      "Typescript"
     ]
   },
   {
     id: 1,
     img: "",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2022 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    role: "Frontend Developer",
+    company: "MMN Company",
+    date: "October 2023 – January 2024",
+    desc: "•	Developed dynamic, user-friendly interfaces for web applications using React.js and TypeScript, focusing on responsive design and performance optimization , Collaborated closely with the team to align development processes with business goals, resulting in a 30% increase in sales team productivity and a 20% increase in customer retention , •Implemented security and data protection solutions, ensuring compliance with industry standards and regulations.",
     skills: [
       "ReactJS",
+      "NextJS",
       "Redux",
-      "NodeJs",
       "Material UI",
       "HTML",
       "CSS",
       "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
     ],
-  },
-  {
-    id: 2,
-    img: "",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "June 2021 - July 2022",
-    desc: "Contributing to different open-source projects and learn from industry experts",
-
   },
 
 ];
@@ -213,6 +204,18 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Mohamad-Alsaleh10/Modern-E-Commerce",
     webapp: "https://mohamad-alsaleh10.github.io/Modern-E-Commerce/",
+  },
+  {
+    id: 1,
+    title: "Villa",
+    date: "Feb 2024 ",
+    description:
+      "Designed and developed a Simple Villa Website by ReactJS  ",
+    image:Villa,
+    tags: ["ReactJS", "css", "Bootstrap"],
+    category: "website",
+    github: "https://github.com/Mohamad-Alsaleh10/Mohammed_Alsaleh_Task1_FocalX",
+    webapp: "https://mohamad-alsaleh10.github.io/Mohammed_Alsaleh_Task1_FocalX/",
   },
 
 ];
