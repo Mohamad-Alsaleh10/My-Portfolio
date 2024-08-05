@@ -71,6 +71,28 @@ export const skills = [
     ],
   },
   {
+    title: "backend",
+    skills: [
+      {
+        name: "php",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4AcWVNXAcQRBFx8zMjpcSM4di6dDMGDuPHJmZ2c7MiRlDM2SmyMyMYl790VVXTbVqtDWHXfWP5/6bv9O9ItlqiHuz/oWdJ/+hxrg3XWSzYL4C8kmNCS3JuHFdzOtSH/dWQmSeXQgAjKyPeb4EyCXEgqxD1Ma8VRUR94YCMTtrEDBfAflSOPUPFIh5P8vsn99L7cxB1MTcFVCrOelv2HkE8970G5j3gdakHaI6mjBPKGGu6IBgBbAndElSgiBzyJciCDWJqqh7hq8pDzu30nIm8OfLyZzEk/hWZlfguS/rjnkpH0yYr4B8KTLXJfEz5LzGcycYd1cgZhGE8eWohDkEc1IwBNQBGoQWvUogRi3KzRkAxAAUiC+ldrPSqv6vkP1OnRN1Uff4/4jzIBCiIuJFIWmuKDAJAFg+GeI1zYmHMB8slALApnYgQuJzif1NAhBEUBIkFeBrqd1EHQKAhYKVblj9CdkfsNh5SQAmSXwuaZMAaakOgENgdjwX5RFnGpmbQHAAatEfZfYXPA9RzsMeyNcczMkCJSFKTCE4gNodcsfojMu/Q85TaU5iEIW0niCKTSForW5iQmTOIfJprRGECoCon9I6vH5VwyemHqKA+xongcj/AKKrkkA/fFYbmAQ3TwFiC18D86OaeweJYg+uoIOJqXdbsPpZZj/Tjm3NzlNNYh3UpwrxQzt1ExMy27lJEmhFeR70EzPmFqRgnVqLQqmbm7coCbGnuQwmpmbnWUlCs/NsJaHO9qxAjPsTci//DbnnADBaJFktk63VVxGkRzAAAAAASUVORK5CYII=",
+      },
+      {
+        name: "mysql",
+        image:
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "laravel",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACRElEQVR4Ae3WA8wcQRTA8d3aNoPatm3bthHVboPatm3bPdW2bWP7n+T1y7T9bE3yy87bmdv3buYye4ZvWngLb5nb2COhPJqKfIFdQEwcxE8xISgKOAxLTArsAqJhEvaLbv6awIwUXSVphlmArQM6Sqy0xUAsEc08LtYRQfFRARGjxjMkkQXYVmGtxMpS72xBpjZ2EzUZ74HYQVFAYpxg/AvXUZla26N6vK+t7XGYmFYkQ12ME03RTIsboZMW10Jy7fOxpYBy9D/C4vmviSt6sOkRVQHtmXhHrMFELZ6GGVo8Uebo8Q4tbiI/1naw/qCAVZla20pyLYEMiKoX0FebfBhLfbAFxDaXFneQFWhC/4fb/da272pFFMbuYbpbAexPF268EFswAxLb5mK+Nj4DW7R4JuMHtbilrEA2PILlgQ2qysZ0WlNAf/oTxEgM1uIhGKrFg2WOPj5Gi/vK8o/DK3cS/8Jp5uVUVX6VG/7N0mUiDy7hAPEYpM/c1mkaajAwkHgHUiPmXweT2rNAKOAD6mVqazfdOyxOBUIBq8kTy/DgtBoTwEt/HXkMjxqDxZn4PIAKeMXzmyKCZwVE0859/6SO3m5cI2vpPCwiCxPP+WPyu2jNrz2K4Z3GIWRSRAVc92Piz9iKIplbe7jsHv9xoIBC2KVenz5M/BZ70AJxM7Q4bviq8aZSK5EAzeVtdwPvpKCf+I5PeI3rcriMRilWMTZfwjT8o+Vq5TRIEAWpeXBhElSh3xR1UZo4H1IhOvyUNLyFt9+l1hby5kOWFgAAAABJRU5ErkJggg==",
+      },
+    ],
+  }
+  ,
+
+  {
     title: "Others",
     skills: [
       {
@@ -83,16 +105,7 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-      {
-        name: "Docker",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACRElEQVR4Ae3WA8wcQRTA8d3aNoPatm3bthHVboPatm3bPdW2bWP7n+T1y7T9bE3yy87bmdv3buYye4ZvWngLb5nb2COhPJqKfIFdQEwcxE8xISgKOAxLTArsAqJhEvaLbv6awIwUXSVphlmArQM6Sqy0xUAsEc08LtYRQfFRARGjxjMkkQXYVmGtxMpS72xBpjZ2EzUZ74HYQVFAYpxg/AvXUZla26N6vK+t7XGYmFYkQ12ME03RTIsboZMW10Jy7fOxpYBy9D/C4vmviSt6sOkRVQHtmXhHrMFELZ6GGVo8Uebo8Q4tbiI/1naw/qCAVZla20pyLYEMiKoX0FebfBhLfbAFxDaXFneQFWhC/4fb/da272pFFMbuYbpbAexPF268EFswAxLb5mK+Nj4DW7R4JuMHtbilrEA2PILlgQ2qysZ0WlNAf/oTxEgM1uIhGKrFg2WOPj5Gi/vK8o/DK3cS/8Jp5uVUVX6VG/7N0mUiDy7hAPEYpM/c1mkaajAwkHgHUiPmXweT2rNAKOAD6mVqazfdOyxOBUIBq8kTy/DgtBoTwEt/HXkMjxqDxZn4PIAKeMXzmyKCZwVE0859/6SO3m5cI2vpPCwiCxPP+WPyu2jNrz2K4Z3GIWRSRAVc92Piz9iKIplbe7jsHv9xoIBC2KVenz5M/BZ70AJxM7Q4bviq8aZSK5EAzeVtdwPvpKCf+I5PeI3rcriMRilWMTZfwjT8o+Vq5TRIEAWpeXBhElSh3xR1UZo4H1IhOvyUNLyFt9+l1hby5kOWFgAAAABJRU5ErkJggg==",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
+
       {
         name: "VS Code",
         image:
@@ -115,6 +128,8 @@ export const skills = [
       },
     ],
   },
+
+
 ];
 
 export const experiences = [
@@ -140,6 +155,26 @@ export const experiences = [
   },
   {
     id: 1,
+    img: "",
+    role: "Full Stack Coach",
+    company: "الأكاديمية الوطنية السورية",
+    date: "February 2023  - Present",
+    desc: "• From A to Z ",
+    skills: [
+      "ReactJS",
+      "NextJS",
+      "Redux",
+      "Laravel",
+      "Material UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Typescript",
+      "Apis",
+    ]
+  },
+  {
+    id: 2,
     img: "",
     role: "Frontend Developer",
     company: "MMN Company",
