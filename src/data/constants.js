@@ -157,7 +157,7 @@ export const experiences = [
     id: 1,
     img: "",
     role: "Full Stack Coach",
-    company: "الأكاديمية الوطنية السورية",
+    company: "Syrian National Academy || الأكاديمية الوطنية السورية",
     date: "February 2023  - Present",
     desc: "• From A to Z ",
     skills: [
